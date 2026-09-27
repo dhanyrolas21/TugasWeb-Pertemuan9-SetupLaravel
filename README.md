@@ -1,4 +1,4 @@
-# TugasWeb-P9-LaravelSetup
+# TugasWeb-Pertemuan9-LaravelSetup
 
 Repositori ini dibuat untuk memenuhi **Tugas Rutin 9 — Setup Laravel** pada mata kuliah Pemrograman Web. Proyek ini berisi instalasi awal framework Laravel 13, integrasi database MySQL, penggunaan Model, Migration, Controller, hingga penyajian data dinamis melalui Blade Templating dengan styling Tailwind CSS CDN.
 
