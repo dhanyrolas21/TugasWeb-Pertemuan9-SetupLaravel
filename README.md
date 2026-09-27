@@ -78,6 +78,10 @@ php artisan serve
 
 
 .
+## 📁 Penjelasan Struktur Folder & Direktori Proyek
+
+```text
+.
 ├── app/                              # Otak utama aplikasi (Model & Controller)
 │   ├── Http/
 │   │   └── Controllers/
@@ -95,29 +99,28 @@ php artisan serve
 │       ├── 0001_01_01_000001_create_cache_table.php    # Tabel cache bawaan
 │       ├── 0001_01_01_000002_create_jobs_table.php     # Tabel antrean job bawaan
 │       └── 2026_09_27_072204_create_profiles_table.php # Migrasi kustom tabel 'profiles'
-├── public/                           # Entry point publik HTTP request (diakses langsung oleh browser)[cite: 2]
-│   ├── index.php                     # Berkas utama pemroses awal semua request (Front Controller)[cite: 2]
-│   └── favicon.ico                   # Ikon favicon situs web[cite: 2]
+├── public/                           # Entry point publik HTTP request (diakses langsung oleh browser)
+│   ├── index.php                     # Berkas utama pemroses awal semua request (Front Controller)
+│   └── favicon.ico                   # Ikon favicon situs web
 ├── resources/
-│   └── views/                        # Berkas tampilan antarmuka (UI) berbasi Blade Templating[cite: 2]
-│       ├── about.blade.php           # Tampilan Blade halaman About[cite: 1, 2]
-│       ├── contact.blade.php         # Tampilan Blade halaman Contact[cite: 1, 2]
-│       ├── home.blade.php            # Tampilan Blade halaman utama dengan Tailwind CSS CDN[cite: 1, 2]
-│       └── welcome.blade.php         # Tampilan Blade bawaan awal instalasi Laravel[cite: 1, 2]
+│   └── views/                        # Berkas tampilan antarmuka (UI) berbasis Blade Templating
+│       ├── about.blade.php           # Tampilan Blade halaman About
+│       ├── contact.blade.php         # Tampilan Blade halaman Contact
+│       ├── home.blade.php            # Tampilan Blade halaman utama dengan Tailwind CSS CDN
+│       └── welcome.blade.php         # Tampilan Blade bawaan awal instalasi Laravel
 ├── routes/
-│   ├── console.php                   # Pendaftaran perintah berbasis CLI (Artisan Commands)[cite: 2]
-│   └── web.php                       # Pendaftaran rute URL web ('/', '/about', '/contact', '/hello/{nama}')[cite: 1, 2]
-├── storage/                          # Tempat penyimpanan berkas log internal, cache session, dan upload pengguna[cite: 2]
-├── tests/                            # Berkas pengujian otomatis (Unit Test & Feature Test)[cite: 2]
-├── .env                              # Berkas rahasia konfigurasi lingkungan lokal (Koneksi Database MySQL, App Key)[cite: 2]
-├── .env.example                      # Templat contoh konfigurasi environment untuk tim/dosen[cite: 2]
-├── .gitignore                        # Berkas pendaftar folder/file yang diabaikan oleh Git (misal: vendor/, .env)[cite: 2]
-├── artisan                           # Antarmuka CLI bawaan Laravel untuk menjalankan perintah 'php artisan'[cite: 2]
-├── composer.json                     # Berkas pendaftar dependensi paket PHP (Composer)[cite: 2]
-├── composer.lock                     # Berkas pengunci versi pasti paket Composer yang terpasang[cite: 2]
-├── package.json                      # Berkas pendaftar dependensi Node.js / Asset Bundler (Vite, Tailwind)[cite: 2]
-└── README.md                         # Berkas dokumentasi utama proyek di GitHub[cite: 1]
-
+│   ├── console.php                   # Pendaftaran perintah berbasis CLI (Artisan Commands)
+│   └── web.php                       # Pendaftaran rute URL web ('/', '/about', '/contact', '/hello/{nama}')
+├── storage/                          # Tempat penyimpanan berkas log internal, cache session, dan upload
+├── tests/                            # Berkas pengujian otomatis (Unit Test & Feature Test)
+├── .env                              # Berkas rahasia konfigurasi lingkungan lokal (MySQL, App Key)
+├── .env.example                      # Templat contoh konfigurasi environment
+├── .gitignore                        # Berkas pendaftar folder/file yang diabaikan oleh Git
+├── artisan                           # Antarmuka CLI bawaan Laravel
+├── composer.json                     # Berkas pendaftar dependensi paket PHP
+├── composer.lock                     # Berkas pengunci versi pasti paket Composer
+├── package.json                      # Berkas pendaftar dependensi Node.js / Asset Bundler
+└── README.md                         # Berkas dokumentasi utama proyek di GitHub
 Dhany Rolas
 Tugas Mata Kuliah PemrogramanWeb-Pertemuan9-SetupLaravel.
 Universitas Negeri Medan
