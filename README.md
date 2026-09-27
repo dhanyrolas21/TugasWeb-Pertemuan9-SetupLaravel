@@ -122,5 +122,5 @@ php artisan serve
 ├── package.json                      # Berkas pendaftar dependensi Node.js / Asset Bundler
 └── README.md                         # Berkas dokumentasi utama proyek di GitHub
 Dhany Rolas
-Tugas Mata Kuliah PemrogramanWeb-Pertemuan9-SetupLaravel.
+Tugas Mata Kuliah PemrogramanWeb-P9-SetupLaravel.
 Universitas Negeri Medan
